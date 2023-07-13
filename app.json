@@ -77,7 +77,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
+            "value": "Request_movie_group",
             "required": false
         },
         "IMDB": {
