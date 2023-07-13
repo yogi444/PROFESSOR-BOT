@@ -59,7 +59,7 @@
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
             "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @Itz_me_444 ❱ • ────➤\n┣ ▫️ @movies_areaz\n┣ ▫️ @rqsturmovie\n╰─────── • ◆ • ───────➤",
-            "required": false
+            "required": true
         },
         "DATABASE_URI": {
             "description": "mongoDB URI.",
