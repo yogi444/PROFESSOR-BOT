@@ -59,8 +59,12 @@ G_FILTER = is_enabled(environ.get("G_FILTER", "True"), True)
 BUTTON_LOCK = is_enabled(environ.get("BUTTON_LOCK", "True"), True)
 
 # url shortner
+VERIFY = bool(environ.get('VERIFY', False))
 SHORT_URL = environ.get('SHORT_URL', 'krownlinks.com')
 SHORT_API = environ.get('SHORT_API', '8536db2963229d622d99d92d62b04cac053646f9')
+IS_SHORT = bool(environ.get('IS_SHORT', True))
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
+MAX_B_TN = environ.get("MAX_B_TN", "5")
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
